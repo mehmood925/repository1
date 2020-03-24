@@ -1,0 +1,611 @@
+                                                        * {
+                                                        box-sizing: border-box;
+                                                    }
+                                                    
+                                                    body {
+                                                        color: #24292e;
+                                                        background-color: #fff !important;
+                                                        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+                                                        font-size: 14px;
+                                                        line-height: 1.5;
+                                                    }
+                                                    /*//////////////////////////////////////////////////////////// NAV BAR CSS STARTS */
+                                                    
+                                                    .nav-background-color {
+                                                        background-color: #24292e !important;
+                                                        color: hsla(0, 0%, 100%, .7) !important;
+                                                    }
+                                                    
+                                                    .nav-height {
+                                                        height: 63px !important;
+                                                        width: 100% !important;
+                                                    }
+                                                    
+                                                    .v-align-middle {
+                                                        font-size: 33px !important;
+                                                        width: 32px !important;
+                                                        vertical-align: middle!important;
+                                                    }
+                                                    
+                                                    .v-align-middle:hover,
+                                                    .dropdown-line-seperator:hover,
+                                                    .position-bell:hover,
+                                                    .position-plus:hover,
+                                                    .position-avatar:hover {
+                                                        color: gray !important;
+                                                    }
+                                                    
+                                                    .navbar-search-form-width {
+                                                        width: 307px !important;
+                                                    }
+                                                    
+                                                    .navbar-search-form-position {
+                                                        position: relative !important;
+                                                        order: -1 !important;
+                                                    }
+                                                    
+                                                    .bar-width {
+                                                        background-color: hsla(0, 0%, 100%, .125) !important;
+                                                        width: 100% !important;
+                                                        font-weight: 600 !important;
+                                                        font-size: inherit !important;
+                                                        box-shadow: none !important;
+                                                        border: 0 !important;
+                                                    }
+                                                    
+                                                    .bar-height {
+                                                        height: 28px !important;
+                                                    }
+                                                    
+                                                    .position-logo {
+                                                        order: -2 !important;
+                                                    }
+                                                    
+                                                    .position-a0 {
+                                                        order: 0 !important;
+                                                    }
+                                                    
+                                                    .position-a1 {
+                                                        order: 1 !important;
+                                                    }
+                                                    
+                                                    .position-a2 {
+                                                        order: 2 !important;
+                                                    }
+                                                    
+                                                    .position-a3 {
+                                                        order: 3 !important;
+                                                    }
+                                                    
+                                                    .position-a4 {
+                                                        order: 4 !important;
+                                                    }
+                                                    
+                                                    .position-a5 {
+                                                        order: 5 !important;
+                                                    }
+                                                    
+                                                    .position-a6 {
+                                                        order: 6 !important;
+                                                    }
+                                                    
+                                                    .position-bell {
+                                                        order: 5 !important;
+                                                    }
+                                                    
+                                                    .position-plus {
+                                                        order: 6 !important;
+                                                    }
+                                                    
+                                                    .position-avatar {
+                                                        order: 7 !important;
+                                                    }
+                                                    
+                                                    .search-bar-icon-position {
+                                                        position: absolute !important;
+                                                        margin-left: 272px !important;
+                                                    }
+                                                    
+                                                    ul li a {
+                                                        color: white !important;
+                                                        font-weight: 600 !important;
+                                                    }
+                                                    
+                                                    .left-side-dropdown-menu {
+                                                        left: -120px !important;
+                                                    }
+                                                    
+                                                    .dark-font {
+                                                        color: rgba(10, 0, 70, 70) !important;
+                                                        font-size: 14px !important;
+                                                        font-weight: 400 !important;
+                                                        text-overflow: ellipsis !important;
+                                                        display: block !important;
+                                                        padding: 4px 8px 4px 16px !important;
+                                                        white-space: nowrap !important;
+                                                    }
+                                                    
+                                                    .smiley-flex {
+                                                        border: 1px solid lightgray !important;
+                                                        border-radius: 5% !important;
+                                                        margin-right: 10% !important;
+                                                        margin-left: 10% !important;
+                                                    }
+                                                    
+                                                    .smiley {
+                                                        padding-left: 7% !important;
+                                                        padding-bottom: 3% !important;
+                                                    }
+                                                    
+                                                    .flex-text-padding {
+                                                        font-size: 12px !important;
+                                                        padding-left: 11% !important;
+                                                    }
+                                                    
+                                                    .flex-padding {
+                                                        color: whitesmoke !important;
+                                                        margin-left: 10px !important;
+                                                        width: 100% !important;
+                                                    }
+                                                    
+                                                    .profile-border {
+                                                        border-radius: 10% !important;
+                                                    }
+                                                    
+                                                    .no-display {
+                                                        display: none !important;
+                                                    }
+                                                    
+                                                    .no-border {
+                                                        border: none !important;
+                                                    }
+                                                    /*//////////////////////////////////////////////////////////// NAV BAR CSS ENDS */
+                                                    /*//////////////////////////////////////////////////////////// LEFT COLUMN CSS STARTS */
+                                                    
+                                                    .left-col {
+                                                        background-color: #fff !important;
+                                                        height: 690px !important;
+                                                        width: 800px !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .left-col-first-heading {
+                                                        margin-top: 33px !important;
+                                                        margin-left: 5px !important;
+                                                        width: 320px !important;
+                                                        margin-bottom: 4px !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .new-btn-box {
+                                                        float: right !important;
+                                                        padding-right: 0px !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .new-btn-design {
+                                                        background-color: #28a745 !important;
+                                                        background-image: linear-gradient(-180deg, #34d058, #28a745 90%) !important;
+                                                        color: #fff!important;
+                                                        border: 1px solid rgba(27, 31, 35, .2) !important;
+                                                        border-radius: 3px !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .left-col-search-box {
+                                                        margin-left: 5px !important;
+                                                        margin-top: -3px !important;
+                                                        margin-bottom: 9px !important;
+                                                        padding-right: 0px !important;
+                                                        padding-left: 4px !important;
+                                                        padding-top: 0px !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .left-col-search-box-design {
+                                                        width: 120% !important;
+                                                        height: 35px !important;
+                                                        margin-top: 5px !important;
+                                                        margin-bottom: 0% !important;
+                                                        border-radius: 2% !important;
+                                                    }
+                                                    
+                                                    .left-col-repositories-list {
+                                                        color: #0366d6 !important;
+                                                        font-weight: 500 !important;
+                                                        font-size: 14px !important;
+                                                        list-style-type: none !important;
+                                                        margin: 0 !important;
+                                                        padding: 0 !important;
+                                                        line-height: 30px !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .left-col-second-heading-box {
+                                                        border-top: 1px solid #e1e4e8!important;
+                                                        margin-left: 5px !important;
+                                                        margin-top: 15px !important;
+                                                        padding-left: 0% !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .left-col-second-heading {
+                                                        margin-top: 17px !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .left-col-paragraph-box {
+                                                        padding-left: 4px !important;
+                                                        margin-left: 5px !important;
+                                                        font-size: 14px!important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .left-col-bottom-btn-box {
+                                                        margin-top: -8px !important;
+                                                        margin-left: 5px !important;
+                                                        padding-left: 4px !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .left-col-bottom-btn-box-design {
+                                                        background-color: #fff !important;
+                                                        color: #0366d6!important;
+                                                        border: 1px solid lightgray !important;
+                                                        border-radius: 3px !important;
+                                                        width: 150px !important;
+                                                        font-size: 12px !important;
+                                                        font-weight: 500 !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    h6 {
+                                                        font-size: 14px !important;
+                                                        padding-top: 5px !important;
+                                                        padding-left: 3px !important;
+                                                    }
+                                                    /*//////////////////////////////////////////////////////////// LEFT COLUMN CSS ENDS */
+                                                    /*////////////////////////////////////////////////////////////CENTER COLUMN STARTS*/
+                                                    
+                                                    .center-col {
+                                                        background-color: whitesmoke !important;
+                                                        border-left: 1px solid whitesmoke !important;
+                                                        position: static !important;
+                                                    }
+                                                    
+                                                    .center-col p {
+                                                        font-size: 12px !important;
+                                                    }
+                                                    
+                                                    .center-col ul li {
+                                                        font-size: 12px !important;
+                                                    }
+                                                    
+                                                    .jumbotron-paragraph {
+                                                        font-size: 16px !important;
+                                                    }
+                                                    
+                                                    .first-jumbotron-design {
+                                                        color: rgba(27, 31, 35, .85);
+                                                        background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 60%, #fff), linear-gradient(70deg, #dbedff 32%, #ebfff0);
+                                                        border: 1px solid whitesmoke !important;
+                                                        margin-top: 20px !important;
+                                                        margin-left: 20px !important;
+                                                        padding-top: 20px !important;
+                                                        height: 350px !important;
+                                                        max-width: 95% !important;
+                                                        text-align: center !important;
+                                                        order: 0 !important;
+                                                        position: static !important;
+                                                    }
+                                                    
+                                                    .jumbo-corner-btn-design {
+                                                        float: right !important;
+                                                        margin-right: 0px !important;
+                                                        margin-top: 0px !important;
+                                                        color: gray!important;
+                                                        border: 1px solid rgba(27, 31, 35, .2) !important;
+                                                        border-radius: 50% !important;
+                                                        position: static!important;
+                                                    }
+                                                    
+                                                    .first-jumbotron-design h2 {
+                                                        padding-top: 50px !important;
+                                                    }
+                                                    
+                                                    .first-jumbotron-design h3,
+                                                    p {
+                                                        text-align: center !important;
+                                                    }
+                                                    
+                                                    .jumbotron-design h3,
+                                                    p {
+                                                        text-align: left !important;
+                                                    }
+                                                    
+                                                    .jumbotron-btn1-box-design {
+                                                        width: 200px !important;
+                                                        vertical-align: middle !important;
+                                                        border: 1px solid lightgray !important;
+                                                    }
+                                                    
+                                                    .jumbotron-btn2-box-design {
+                                                        width: 200px !important;
+                                                        margin-left: 23px !important;
+                                                        border: 1px solid lightgray !important;
+                                                    }
+                                                    
+                                                    .jumbotron-design {
+                                                        border: 1px solid lightgray !important;
+                                                        background-color: #fff !important;
+                                                        padding-top: 4% !important;
+                                                        margin-top: 10px !important;
+                                                        margin-left: 20px !important;
+                                                        max-height: 300px !important;
+                                                        max-width: 95% !important;
+                                                        order: 1 !important;
+                                                        position: static !important;
+                                                    }
+                                                    
+                                                    .lower-jumbotron-design {
+                                                        margin-top: 8px !important;
+                                                        margin-left: 20px !important;
+                                                        padding-left: 1px !important;
+                                                        padding-top: 2px !important;
+                                                        order: 2 !important;
+                                                        position: static !important;
+                                                    }
+                                                    
+                                                    .list-jumbotron-design {
+                                                        margin-top: 8px !important;
+                                                        margin-left: 55px !important;
+                                                        padding-left: 1px !important;
+                                                        padding-top: 2px !important;
+                                                        order: 3 !important;
+                                                        position: static !important;
+                                                    }
+                                                    
+                                                    .lower-jumbotron-design p {
+                                                        color: gray !important;
+                                                    }
+                                                    
+                                                    .list-jumbotron-design ul li {
+                                                        color: gray !important;
+                                                        list-style-type: none !important;
+                                                    }
+                                                    /*////////////////////////////////////////////////////////////CENTER COLUMN ENDS*/
+                                                    /*//////////////////////////////////////////////////////////// RIGHT COLUMN CSS STARTS */
+                                                    
+                                                    .right-col {
+                                                        background-color: whitesmoke !important;
+                                                    }
+                                                    
+                                                    .right-col-main-heading {
+                                                        padding-top: 25px !important;
+                                                        margin-top: 4px !important;
+                                                    }
+                                                    
+                                                    .right-col-paragraph {
+                                                        padding-top: 0px !important;
+                                                        font-size: 14px!important;
+                                                    }
+                                                    
+                                                    .right-col-paragraph-design {
+                                                        font-size: 14px!important;
+                                                    }
+                                                    
+                                                    .right-col-heading {
+                                                        padding-left: 15px !important;
+                                                        margin-bottom: -5px !important;
+                                                    }
+                                                    
+                                                    .right-col-heading-v2 {
+                                                        padding-top: 5px !important;
+                                                        padding-left: 15px !important;
+                                                        margin-bottom: -5px !important;
+                                                    }
+                                                    
+                                                    .right-col-icons {
+                                                        max-height: 30px !important;
+                                                        padding-bottom: 10px !important;
+                                                        padding-left: 15px !important;
+                                                        font-size: 12px !important;
+                                                        border-bottom: 1px solid #e1e4e8!important;
+                                                    }
+                                                    
+                                                    .right-col-icons-v2 {
+                                                        max-height: 30px !important;
+                                                        padding-left: 15px !important;
+                                                        font-size: 12px !important;
+                                                    }
+                                                    
+                                                    .right-col-heading-design {
+                                                        padding-bottom: 0rem !important;
+                                                        padding-top: 14px !important;
+                                                        font-size: 12px!important;
+                                                        font-weight: 600 !important;
+                                                    }
+                                                    
+                                                    .right-col-paragraph-design {
+                                                        color: #586069!important;
+                                                        font-size: 12px!important;
+                                                        margin-bottom: 8px !important;
+                                                        padding-top: 0px !important;
+                                                        padding-left: 0px !important;
+                                                        padding-right: 0px !important;
+                                                        padding-bottom: 0px !important;
+                                                    }
+                                                    
+                                                    .right-col-bottom-text {
+                                                        color: #586069!important;
+                                                        font-size: 12px!important;
+                                                        padding-top: 17px !important;
+                                                        padding-left: 2px !important;
+                                                    }
+                                                    
+                                                    .star-design {
+                                                        color: #586069!important;
+                                                    }
+                                                    /*////////////////////////////////////////////////////////////RIGHT COLUMN ENDS*/
+                                                    
+                                                    @media screen and (max-width:991px) {
+                                                        .right-col {
+                                                            display: none;
+                                                        }
+                                                        .left-col-search-box {
+                                                            width: 92%!important;
+                                                        }
+                                                        .left-col-search-box-design {
+                                                            max-width: 100% !important;
+                                                            margin-left: 10px !important;
+                                                        }
+                                                        .left-col-repositories-list {
+                                                            padding-left: 5px !important;
+                                                            position: static !important;
+                                                        }
+                                                        .jumbotron-design {
+                                                            max-height: 320px !important;
+                                                        }
+                                                        .position-humburger-button {
+                                                            order: -1 !important;
+                                                        }
+                                                        .position-logo {
+                                                            order: 0 !important;
+                                                            position: absolute !important;
+                                                            right: 46% !important;
+                                                            top: 8px !important;
+                                                        }
+                                                        .position-bell {
+                                                            order: 1 !important;
+                                                            position: absolute !important;
+                                                            right: 35px !important;
+                                                            top: 14px !important;
+                                                        }
+                                                        .position-avatar {
+                                                            display: none !important;
+                                                        }
+                                                        .position-plus {
+                                                            display: none !important;
+                                                        }
+                                                        .no-display {
+                                                            border-top: 1px solid gray !important;
+                                                            max-width: 95% !important;
+                                                            display: block !important;
+                                                        }
+                                                        .no-display:hover {
+                                                            color: gray !important;
+                                                        }
+                                                        ul li a {
+                                                            max-width: 95% !important;
+                                                        }
+                                                        .dropdown-line-seperator {
+                                                            border-top: 1px solid gray !important;
+                                                        }
+                                                        .navbar-search-form-width {
+                                                            width: 96% !important;
+                                                            padding-left: 0px !important;
+                                                            margin-top: 15px !important;
+                                                            margin-bottom: 20px !important;
+                                                        }
+                                                        .search-bar-icon-position {
+                                                            position: absolute !important;
+                                                            margin-left: 95% !important;
+                                                        }
+                                                        .bg-color-navbar-dropdown {
+                                                            background-color: #24292e !important;
+                                                            min-width: 108% !important;
+                                                            margin-left: -17px !important;
+                                                            padding-left: 25px !important;
+                                                        }
+                                                        @media screen and (max-width:768px) {
+                                                            .first-jumbotron-design {
+                                                                order: 0 !important;
+                                                            }
+                                                            .jumbotron-design {
+                                                                order: 2 !important;
+                                                            }
+                                                            .lower-jumbotron-design {
+                                                                order: 3 !important;
+                                                            }
+                                                            .list-jumbotron-design {
+                                                                order: 4 !important;
+                                                            }
+                                                            .left-col {
+                                                                position: static !important;
+                                                                background-color: whitesmoke !important;
+                                                                height: 500px !important;
+                                                                max-height: 300px !important;
+                                                                display: none !important;
+                                                            }
+                                                            .left-col-second-heading-box,
+                                                            .left-col-paragraph-box,
+                                                            .left-col-bottom-btn-box {
+                                                                display: none !important;
+                                                            }
+                                                            .left-col-search-box {
+                                                                background-color: #fff !important;
+                                                                width: 92% !important;
+                                                                padding-top: 10px !important;
+                                                                margin-left: 20px !important;
+                                                            }
+                                                            .left-col-search-box-design {
+                                                                width: 95% !important;
+                                                            }
+                                                            .left-col-repositories-list {
+                                                                list-style-type: none !important;
+                                                                color: #0366d6 !important;
+                                                                margin: 0 !important;
+                                                                padding: 0 !important;
+                                                                padding-left: 5px !important;
+                                                                font-weight: 500 !important;
+                                                                font-size: 14px !important;
+                                                                line-height: 30px !important;
+                                                                position: static!important;
+                                                            }
+                                                            .left-col-first-heading {
+                                                                margin-top: 24px !important;
+                                                                margin-left: 23px !important;
+                                                                margin-bottom: 4px !important;
+                                                                position: static!important;
+                                                            }
+                                                            .navbar-search-form-width {
+                                                                width: 96% !important;
+                                                                padding-left: 0px !important;
+                                                                margin-bottom: 20px !important;
+                                                            }
+                                                            .search-bar-icon-position {
+                                                                position: absolute !important;
+                                                                margin-left: 93% !important;
+                                                            }
+                                                            .new-btn-box {
+                                                                display: none !important;
+                                                            }
+                                                        }
+                                                        @media screen and (max-width:576px) {
+                                                            .navbar-search-form-width {
+                                                                width: 95% !important;
+                                                                padding-left: 0px !important;
+                                                                margin-bottom: 20px !important;
+                                                            }
+                                                            .left-col-search-box-design {
+                                                                max-width: 96% !important;
+                                                            }
+                                                            .search-bar-icon-position {
+                                                                position: absolute !important;
+                                                                margin-left: 95% !important;
+                                                            }
+                                                            .left-col-repositories-list {
+                                                                margin: 0 !important;
+                                                                padding: 0 !important;
+                                                                padding-left: 5px !important;
+                                                                font-weight: 500 !important;
+                                                                font-size: 14px !important;
+                                                                list-style-type: none !important;
+                                                                color: #0366d6 !important;
+                                                                line-height: 30px !important;
+                                                                position: static!important;
+                                                            }
+                                                            .jumbotron-btn2-box-design {
+                                                                margin-left: 0px !important;
+                                                            }
+                                                        }
